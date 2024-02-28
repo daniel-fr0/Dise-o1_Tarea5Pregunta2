@@ -21,3 +21,6 @@ matching = graph.hopcroftKarp()
 for i in range(1, len(C) + 1):
 	if graph.getPairU()[i] != 0:
 		print(C[i - 1], C[graph.getPairU()[i] - 1])
+
+# La solucion es el resultado del matching
+print(matching)
