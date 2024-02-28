@@ -9,3 +9,5 @@ esta pregunta, puede suponer que consultar si un número es primo es $O(1)$.
 Pista: El teorema de König puede ser de utilidad.
 
 El teorema de König dice que en un grafo bipartito, el número de aristas en un emparejamiento máximo es igual al número de nodos de un minimo cubrimiento por vertices.
+
+El algoritmo que implementa la solución se encuentra en `main.py`
